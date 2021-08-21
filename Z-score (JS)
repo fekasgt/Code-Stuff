@@ -1,5 +1,16 @@
+Javascript :
+
 function norm_dist(data_point, mean, sd) {
     z_score = (data_point - mean) / sd
     z_score_2_decimal = z_score.toFixed(2)
     console.log(z_score_2_decimal)
 }
+
+Python :
+
+data_point = float(input("Data Point : "))
+mean = float(input("Mean : "))
+sd = float(input("Standard Deviation : "))
+z_score = (data_point - mean) / sd
+z_score_2_decimal = round(z_score, 2)
+print(z_score_2_decimal)
