@@ -1,0 +1,5 @@
+function norm_dist(data_point, mean, sd) {
+    z_score = (data_point - mean) / sd
+    z_score_4_decimal = z_score.toFixed(4)
+    console.log(z_score_4_decimal)
+}
