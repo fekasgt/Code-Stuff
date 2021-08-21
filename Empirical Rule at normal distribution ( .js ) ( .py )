@@ -1,4 +1,4 @@
-Javascript :
+--- Javascript ---
 
 function empi(mean, sd) {
   empi_1_low = mean - sd
@@ -14,7 +14,7 @@ function empi(mean, sd) {
   console.log(empi_3_low," ",empi_3_high)
 }
 
-Python :
+--- Python ---
 
 # Get user input
 
