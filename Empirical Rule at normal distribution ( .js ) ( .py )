@@ -11,7 +11,7 @@ function empi(mean, sd) {
   
   empi_3_low = mean - (sd * 3)
   empi_3_high = mean + (sd * 3)
-  console.log("97% = ",empi_3_low," ",empi_3_high)
+  console.log("99.7% = ",empi_3_low," ",empi_3_high)
 }
 
 --- Python ---
