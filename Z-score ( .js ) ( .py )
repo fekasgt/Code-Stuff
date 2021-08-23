@@ -1,4 +1,4 @@
-Javascript :
+--- Javascript ---
 
 function norm_dist(data_point, mean, sd) {
     z_score = (data_point - mean) / sd
@@ -6,7 +6,7 @@ function norm_dist(data_point, mean, sd) {
     console.log(z_score_2_decimal)
 }
 
-Python :
+--- Python ---
 
 data_point = float(input("Data Point : "))
 mean = float(input("Mean : "))
