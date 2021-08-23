@@ -3,15 +3,15 @@
 function empi(mean, sd) {
   empi_1_low = mean - sd
   empi_1_high = mean + sd
-  console.log(empi_1_low," ",empi_1_high)
+  console.log("68% = "empi_1_low," ",empi_1_high)
   
   empi_2_low = mean - (sd * 2)
   empi_2_high = mean + (sd * 2)
-  console.log(empi_2_low," ",empi_2_high)
+  console.log("95% = "empi_2_low," ",empi_2_high)
   
   empi_3_low = mean - (sd * 3)
   empi_3_high = mean + (sd * 3)
-  console.log(empi_3_low," ",empi_3_high)
+  console.log("97% = "empi_3_low," ",empi_3_high)
 }
 
 --- Python ---
