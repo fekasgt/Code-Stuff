@@ -1,9 +1,0 @@
-import random
-nums = ["1","2","3"]
-random_num = random.choice(nums)
-input_by_user = input("Guess a number between 1 and 3: ")
-if random_num == input_by_user:
-    print(f"You are a lucky one! The number is {random_num}")
-elif random_num != input_by_user:
-    print(f"Maybe next time... The number is {random_num}")
-else : print("Something's wrong here!")
